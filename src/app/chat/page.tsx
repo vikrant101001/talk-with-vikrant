@@ -3,36 +3,22 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/v.svg"
-          alt="V logo"
-          width={180}
-          height={38}
-          priority
-        />
-        
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-4 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-8"
-            href="/chat"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="light:invert"
-              src="/v.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Talk to Vikrant
-          </a>
-          
+      
+      <div>
+            <h1 className="flex items-center">Hey There! Welcome to Chat with Vikrant!- 
+                <br/> I am a Software Developer with 2 years of experience. <br/>
+                Talk with my AI-replica in the chat-window below.
+            </h1>
         </div>
-      </main>
+      
+
+
+
+
+
+
+
+
       <footer className="row-start-3 flex gap-10 flex-wrap items-center justify-center">
         <a></a>
         <a></a>
